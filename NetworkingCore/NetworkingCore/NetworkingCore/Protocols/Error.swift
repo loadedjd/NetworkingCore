@@ -10,4 +10,6 @@ import Foundation
 
 public enum NetworkError: Error {
     case badUrl
+    case decode
+    case responseError
 }
